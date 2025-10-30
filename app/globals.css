@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* app/globals.css */
+@import "tailwindcss";
 
-/* Optional: You can keep these global styles below */
-body {
-  @apply bg-white text-gray-900 antialiased;
+/* you can add normal css here if you want */
+html, body {
+  height: 100%;
 }
